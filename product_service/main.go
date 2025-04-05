@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"product_service/service"
 )
 
 func main() {
-	fmt.Println("monkey")
+	service.Run()
 }
